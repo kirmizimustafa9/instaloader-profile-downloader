@@ -36,4 +36,3 @@ except Exception as e:
     if(type(e.__cause__) == "instaloader.exceptions.LoginRequiredException"):
         print("cant download because account is private.")
     sys.exit()
-
